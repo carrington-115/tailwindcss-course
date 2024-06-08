@@ -28,3 +28,22 @@ npx tailwindcss init
 ```bash
 npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 ```
+
+### The tailwind.config.js file
+
+- This file allows us to do some configurations to the file. For example we can add breakpoints to screen sizes like
+
+```javascript
+module.exports = {
+  theme: {
+    extend: {},
+    screens: {
+      tiny: "640px",
+      sm: "",
+      md: "",
+      lg: "",
+      xl: "",
+    },
+  },
+};
+```
