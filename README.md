@@ -47,3 +47,9 @@ module.exports = {
   },
 };
 ```
+
+### Styling in Tailwindcss
+
+- We can create our classes in a tailwind project. We have to use the layer and apply approach.
+- In the `input.css` we can modify the styles using the `@layer` and `@apply` classes
+-
