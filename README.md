@@ -48,8 +48,29 @@ module.exports = {
 };
 ```
 
+- In the `input.css` we can modify the styles using the `@layer` and `@apply` classes
+- The `theme section` is where we can list out all the colours, font-family, border sizes, and other UI configurations that are important.
+- The `content` is where all the configurations of the js and html files are made. It is inappropriate to include css files
+- The `color scheme` allows the configuration of color palettes, borders, border radius styles, spacing, in fact, anything that is relevant to the visual development that tailwindcss needs to be involved. For each color, we can add their different mode
+
+```javascript
+module.exports = {
+  content: [],
+  theme: {
+    screens: {},
+    theme: {
+      colors: {
+        black: {
+          100: `#0010`,
+          200: `#0011`,
+        },
+      },
+    },
+    extends: {},
+  },
+};
+```
+
 ### Styling in Tailwindcss
 
 - We can create our classes in a tailwind project. We have to use the layer and apply approach.
-- In the `input.css` we can modify the styles using the `@layer` and `@apply` classes
--
