@@ -32,10 +32,12 @@
       </p>
     </div>
     <br />
-    <!--Columns-->
-    <section class="columns-3 p-10 bg-green-600 gap-100">
+    <!--Columns, break before, after, and inside-->
+    <section
+      class="columns-3 sm:columns-1 md:columns-2 p-10 bg-green-600 gap-100"
+    >
       <img
-        class="aspect-video hover:break-after-column"
+        class="aspect-video hover:break-after-column sm:break-after-column"
         src="/public/images/image-2.png"
         alt=""
       />
@@ -49,7 +51,20 @@
       <img class="aspect-video" src="/public/images/image-1.png" alt="" />
       <img src="/public/images/image-1.png" alt="" />
     </section>
-
-    <!--Break-->
+    <br /><br />
+    <!--Box decoration-->
+    <div class="w-fit flex gap-10">
+      <h1
+        class="box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2"
+      >
+        Hello <br />World
+      </h1>
+      <h1
+        class="box-decoration-clone bg-gradient-to-r from-indigo-600 to-pink-500 text-white px-2"
+      >
+        Hello <br />
+        World
+      </h1>
+    </div>
   </body>
 </html>
