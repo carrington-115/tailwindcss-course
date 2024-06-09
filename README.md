@@ -74,3 +74,8 @@ module.exports = {
 ### Styling in Tailwindcss
 
 - We can create our classes in a tailwind project. We have to use the layer and apply approach.
+
+### Important points to note
+
+- For measurements with width, height, we can use `w, h, and size` from tailwindcss api.
+-
